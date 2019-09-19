@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="admin.css">
+  </head>
+  <body>
+        <div class="wrapper">
+                <h2>Update Jobs</h2>
+                <div id="error_message"></div>
+                <div class="input_field">
+                        <input type="text" placeholder="job Id" id="jobid">
+                  </div>
+                <form id="myform">
+                  <div class="input_field">
+                      <input type="text" placeholder="job title" id="job_title">
+                  </div>
+                  <div class="input_field">
+                      <input type="text" placeholder="location" id="location">
+                  </div>
+                  <div class="input_field">
+                      <input type="text" placeholder="company" id="company">
+                  </div>
+                  <div class="input_field">
+                      <input type="text" placeholder="salary" id="salary">
+                  </div>
+                  <div class="input_field">
+                    <input type="text" placeholder="type of job" id="type_of_job">
+                  </div>
+                  <div class="input_field">
+                     <textarea placeholder="Job requirement" id="job_requirement"></textarea>
+                </div>
+                  <div class="input_field">
+                      <textarea  name="Job_function" placeholder="Job function" id="job_function"></textarea>
+                  </div>
+                  <div class="btn">
+                      <input type="submit" id ="update-jobs">
+                  </div>
+                 
+                </form>
+              </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script  src="jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src ="./post.js"></script>
+    <script src ="./update.js"></script>
+  </body>
+</html>
