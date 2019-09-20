@@ -1,0 +1,14 @@
+{
+  "jobs": [
+    {
+      "job_title": "accountant",
+      "location": "lagos",
+      "company": "decagon",
+      "salary": "100,000",
+      "type_of_job": "tech",
+      "job_requirement": "Bsc, json, javascript",
+      "job_function": "software development",
+      "id": 1
+    }
+  ]
+}
